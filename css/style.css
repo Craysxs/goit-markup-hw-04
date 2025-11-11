@@ -156,6 +156,23 @@ button:hover {
   margin-bottom: 32px;
 }
 
+.svg-5{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.svg-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4D5AE5;
+  border-radius: 50%;
+}
+
 .svg-4{
   width: 16px;
   height: 16px;
@@ -195,8 +212,7 @@ button:hover {
 }
 
 .section-3 ul li div{
-  padding: 32px 16px;
-  padding-bottom: 8px;
+  margin-top: 8px;
 }
 
 .section-4 {
@@ -227,6 +243,8 @@ button:hover {
 }
 
 footer {
+  display: flex;
+  gap: 120px;
   background-color: #2e2f42;
   width: 1440px;
   padding-top: 100px;
@@ -237,4 +255,8 @@ footer {
 .footer-p {
   color: #f4f4fd;
   width: 264px;
+}
+
+.footer{
+  margin-bottom: 16px;
 }
