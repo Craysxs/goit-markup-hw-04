@@ -262,11 +262,11 @@ button:hover {
   overflow: hidden;
 }
 
-.section-4 ul li:hover .overlay{
+.overlay-1:hover .overlay-2{
   transform: translateY(0);
 }
 
-.overlay{
+.overlay-2{
   padding: 8px;
   background-color: #3f51b5;
   color: #fff;
@@ -278,7 +278,7 @@ button:hover {
   transform: translateY(100%);
 }
 
-.section-4 ul li div{
+.div-1{
   padding-left: 16px;
   padding-top: 32px;
   padding-bottom: 32px;
