@@ -1,4 +1,4 @@
-*{
+* {
   transition: all 250ms ease-in-out;
 }
 
@@ -38,7 +38,7 @@ header {
   justify-content: space-around;
   width: 1440px;
   gap: 24px;
-  border: 1px solid #E7E9FC;
+  border: 1px solid #e7e9fc;
 }
 
 .nav-1 {
@@ -46,16 +46,16 @@ header {
   gap: 40px;
 }
 
-#studio{
-color: #404BBF;
+#studio {
+  color: #404bbf;
 }
 
-#studio::after{
+#studio::after {
   content: "";
   display: block;
   position: relative;
   top: 24px;
-  background-color: #404BBF;
+  background-color: #404bbf;
   height: 4px;
   border-radius: 2px;
 }
@@ -105,12 +105,13 @@ h3 {
   text-decoration: none;
 }
 
-.h3{
+.h3 {
   margin-bottom: 8px;
 }
 
 .nav:hover {
   color: var(--hover);
+  transition: all 250ms ease-in-out;
 }
 
 .active {
@@ -131,6 +132,7 @@ button {
 
 button:hover {
   background-color: #404bbf;
+  transition: all 250ms ease-in-out;
 }
 
 .section {
@@ -145,58 +147,61 @@ button:hover {
   flex-direction: column;
   width: 1440px;
   height: 600px;
-  background-image:
-  linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ),
-   url(../images/people-office\ 1.png);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ 1.png);
   color: #fff;
 }
 
-.svg-1{
+.svg-1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F4F4FD;
-  border: 1px solid #8E8F99;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
   border-radius: 4px;
-  padding:24px 0;
+  padding: 24px 0;
 }
 
-.svg-2{
+.svg-2 {
   width: 64px;
   height: 64px;
 }
 
-.svg-3{
+.svg-3 {
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   gap: 24px;
   margin-bottom: 32px;
 }
 
-.svg-5{
+.svg-5 {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 24px;
 }
 
-.svg-container{
+.svg-container {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 40px;
   height: 40px;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   border-radius: 50%;
 }
 
-.svg-container:hover{
-  cursor:pointer;
-  background-color: #404BBF;
+.svg-container:hover {
+  cursor: pointer;
+  background-color: #404bbf;
+  transition: all 250ms ease-in-out;
 }
 
-.svg-4{
+.svg-4 {
   width: 16px;
   height: 16px;
 }
@@ -230,12 +235,12 @@ button:hover {
   gap: 24px;
 }
 
-.section-3 ul li{
+.section-3 ul li {
   background-color: #fff;
   text-align: center;
 }
 
-.section-3 ul li div{
+.section-3 ul li div {
   margin-top: 8px;
 }
 
@@ -257,21 +262,22 @@ button:hover {
 }
 
 .section-4 ul li {
-  border: 1px solid #E7E9FC;
+  border: 1px solid #e7e9fc;
   position: relative;
   overflow: hidden;
 }
 
-.overlay-1:hover .overlay-2{
+.overlay-1:hover .overlay-2 {
   transform: translateY(0);
+  transition: all 250ms ease-in-out;
 }
 
-.overlay-1{
+.overlay-1 {
   position: relative;
   overflow: hidden;
 }
 
-.overlay-2{
+.overlay-2 {
   padding: 8px;
   background-color: #3f51b5;
   color: #fff;
@@ -283,7 +289,7 @@ button:hover {
   transform: translateY(100%);
 }
 
-.div-1{
+.div-1 {
   padding-left: 16px;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -299,11 +305,15 @@ footer {
   padding-left: 156px;
 }
 
+.footer-icon:hover {
+  background-color: #31d0aa;
+}
+
 .footer-p {
   color: #f4f4fd;
   width: 264px;
 }
 
-.footer{
+.footer {
   margin-bottom: 16px;
 }
